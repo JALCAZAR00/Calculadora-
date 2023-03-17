@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.inactive{
+    display: none;
+}
+
+/*---------------- Main -------------------*/
+main{
+    max-width: 900px;
+    margin: 30px auto;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.first-section{
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+}
+.first-section--container{
+    width: 85%;
+    height: 400px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.first-section--container h2{
+    align-self: center;
+    width: 90%;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+}
+.first-section--container span{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-image: url('./assets/save-money.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.first-section--container label{
+    font-size: 1.8rem;
+    width: 80%;
+    margin: 6px 0 16px 0;
+}
+.first-section--container input{
+    width: 65%;
+    height: 35px;
+    max-width: 450px;
+    padding: 15px;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.first-section--container input:hover{
+    border: 1px solid blue;
+}
+.first-section--container h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.first-section--container button{
+    width: 40%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    background-color: rgb(94, 94, 253);
+}
+.first-section--container button:hover{
+    background-color: black;
+}
